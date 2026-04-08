@@ -4,7 +4,7 @@ Tags:              ai, turn-off, wp-supports-ai, disable-ai
 Requires at least: 7.0
 Tested up to:      7.0
 Requires PHP:      7.4
-Stable tag:        0.0.4
+Stable tag:        0.0.5
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,13 @@ after the constant is evaluated, and forces the return value to false regardless
 of the constant.
 
 == Changelog ==
+
+= 0.0.4 =
+== Changelog ==
+
+= 0.0.5 =
+* Added WP-CLI command support for AI feature management
+* Commands: wp toaif disable, wp toaif enable, wp toaif status
 
 = 0.0.4 =
 * Fixed GitHub Actions workflow configuration
