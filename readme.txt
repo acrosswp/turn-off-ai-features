@@ -56,8 +56,13 @@ of the constant.
 
 == Changelog ==
 
+= 0.0.4 =
+* Fixed GitHub Actions workflow configuration
+* Resolved WordPress.org SVN deployment integration
+* Stable tag properly configured
+
 = 0.0.1 =
-* Updated option key to turn_off_ai_features
-* Updated all messaging to use "turn off" terminology
-* Updated WP-CLI command descriptions
-* Initial release.
+* Initial release
+* Added option to toggle AI features from Settings > General
+* Integrated with wp_supports_ai filter at priority 1000
+* Added plugin action links for Settings page access
