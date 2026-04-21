@@ -4,7 +4,7 @@ Tags:              ai, turn-off, wp-supports-ai, disable-ai
 Requires at least: 7.0
 Tested up to:      7.0
 Requires PHP:      7.4
-Stable tag:        0.0.6
+Stable tag:        0.0.7
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,10 @@ combining this plugin with the WP_SUPPORTS_AI constant gives you an auditable,
 two-layer guarantee that AI processing is off.
 
 == Changelog ==
+
+= 0.0.7 =
+* Added WordPress.org plugin banner (772x250) and retina banner (1544x500)
+* Added plugin icons (128x128 and 256x256) featuring WordPress W + AI + red OFF toggle
 
 = 0.0.6 =
 * Expanded FAQ section with detailed answers about wp_supports_ai(), multisite,
